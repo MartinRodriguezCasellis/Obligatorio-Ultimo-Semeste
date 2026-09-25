@@ -1,0 +1,26 @@
+@"
+# Node / Expo
+node_modules/
+.expo/
+dist/
+web-build/
+
+# .NET / Visual Studio
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
